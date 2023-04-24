@@ -1,14 +1,1 @@
-import os
-import openai
-
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-response = openai.Completion.create(
-  model="text-davinci-003",
-  prompt="!bot",
-  temperature=0.7,
-  max_tokens=256,
-  top_p=1,
-  frequency_penalty=0,
-  presence_penalty=0
-)
+The WhatsApp AI Bot is a chatbot that uses AI models APIs to generate responses to user input. The bot supports several AI models, including CHAT-GPT, DALL-E, and Stability AI, and users can also create their own models to customize the bot's behavior.
