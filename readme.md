@@ -89,8 +89,8 @@
 ```
 
 **4. Run the code**
-
-- run `setup.sh` to start the bot.
+open
+- run `bash setup.sh` to start the bot.
 
 - Scan QR code.
 
